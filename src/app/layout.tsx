@@ -6,14 +6,14 @@ export const metadata = { title: "MutinAI" };
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className="bg-black text-gray-100">
-        <header className="border-b border-gray-800">
+      <body className="bg-white text-gray-900">
+        <header className="border-b border-gray-200 bg-white/80 backdrop-blur">
           <nav className="mx-auto flex max-w-6xl items-center justify-between p-4">
-          <Link href="/" className="flex items-center space-x-2">
-  <img src="/logo.png" alt="MutinAI logo" className="h-6 w-6" />
+          <Link href="/" className="flex items-center">
+  <img src="/logo.png" alt="MutinAI logo" className="h-8 w-auto" />
   <span className="text-2xl font-bold">MutinAI</span>
 </Link>
-            <div className="space-x-6 text-sm">
+            <div className="space-x-6 text-sm font-medium text-blue-900">
               <Link href="/product">Product</Link>
               <Link href="/docs">Docs</Link>
               <Link href="/token">Token</Link>
