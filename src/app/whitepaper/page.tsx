@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import { docxToHtml } from "docx-to-html";
+import docxToHtml from "docx-to-html";;
 
 export const metadata = { title: "MutinAI • White Paper" };
 
