@@ -9,7 +9,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="bg-black text-gray-100">
         <header className="border-b border-gray-800">
           <nav className="mx-auto flex max-w-6xl items-center justify-between p-4">
-            <Link href="/" className="text-2xl font-bold">MutinAI</Link>
+          <Link href="/" className="flex items-center space-x-2">
+  <img src="/logo.png" alt="MutinAI logo" className="h-6 w-6" />
+  <span className="text-2xl font-bold">MutinAI</span>
+</Link>
             <div className="space-x-6 text-sm">
               <Link href="/product">Product</Link>
               <Link href="/docs">Docs</Link>
