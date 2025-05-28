@@ -1,8 +1,9 @@
 @import "tailwindcss";
 
+/* ---------- CSS custom properties ---------- */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #ffffff;  /* always white */
+  --foreground: #171717;  /* dark text */
 }
 
 @theme inline {
@@ -12,13 +13,15 @@
   --font-mono: var(--font-geist-mono);
 }
 
+/* force light theme even if user prefers dark */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #ffffff;
+    --foreground: #171717;
   }
 }
 
+/* ---------- base element styles ---------- */
 body {
   background: var(--background);
   color: var(--foreground);
