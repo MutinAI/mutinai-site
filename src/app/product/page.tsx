@@ -29,7 +29,7 @@ export default function Product() {
 
         {/* mascot image */}
         <Image
-          src="/assets/mainasset.png"
+          src="/assets/single.png"
           alt="MutinAI mascot"
           width={380}
           height={380}
