@@ -4,41 +4,27 @@ export const metadata = { title: "MutinAI • Roadmap" };
 
 const milestones = [
   {
-    date: "Q4 2025",
-    title: "MVP Launch",
-    body: "Governance‑Concierge MCP plugin v0.1: Realms pull, AI summaries, vote‑queue B64 export.",
+    date: "Months 0‑1",
+    title: "Lightning MVP",
+    body: "Governance‑Concierge MCP plugin live on Solana mainnet; read‑only feed + one‑click vote signing.",
   },
   {
-    date: "Q1 2026",
-    title: "Wallet Integrations",
-    body: "One‑tap broadcast from Phantom & Backpack; push‑notification flow.",
+    date: "Months 2‑3",
+    title: "Turbo Agent",
+    body: "Multi‑realm monitoring, preference templates, first security audit.",
   },
   {
-    date: "Q2 2026",
-    title: "Web Dashboard",
-    body: "Live proposal feed, voting history, per‑realm analytics, dark/light themes.",
+    date: "Months 4‑6",
+    title: "Ecosystem Plug‑ins",
+    body: "Embed in Realms UI, Phantom extension, Discord bots; AI‑drafted proposals & sentiment summaries.",
   },
   {
-    date: "Q3 2026",
-    title: "Cross‑Chain Support",
-    body: "Snapshot (EVM/L2) + Cosmos Gov adapters; unified interface.",
-  },
-  {
-    date: "Q4 2026",
-    title: "Staking Incentives",
-    body: "Delegate MUT to node operators that run concierge relayers; earn fee rebates.",
-  },
-  {
-    date: "H1 2027",
-    title: "Sentiment Analytics",
-    body: "LLM clustering of proposal categories; predict pass/fail probability.",
-  },
-  {
-    date: "H2 2027",
-    title: "Treasury Risk AI",
-    body: "Monitor DAO treasuries, surface yield & risk alerts to delegates.",
+    date: "Months 7‑12",
+    title: "Autonomous Era",
+    body: "AI delegate committees, routine treasury actions, cross‑chain expansion, launch Mutin AI DAO.",
   },
 ];
+
 
 export default function Roadmap() {
   return (
