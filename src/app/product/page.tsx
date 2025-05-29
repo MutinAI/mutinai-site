@@ -20,10 +20,10 @@ export default function Product() {
             your votes.
           </p>
           <Link
-            href="/docs"
+            href="/whitepaper"
             className="inline-block rounded-xl bg-orange-500 px-6 py-3 font-semibold text-white shadow-md hover:bg-orange-400"
           >
-            Read the docs
+            Read the White Paper
           </Link>
         </div>
 
