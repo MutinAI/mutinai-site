@@ -23,7 +23,7 @@ export default function RootLayout({
             <div className="space-x-6 text-sm font-medium text-blue-900">
               <Link href="/product">Product</Link>
               <Link href="/docs">Docs</Link>
-              <Link href="/token">Token</Link>
+              <Link href="/whitepaper">White Paper</Link>
               <Link href="/roadmap">Roadmap</Link>
               <Link href="/faq">FAQ</Link>
               <Link href="/contact">Contact</Link>
