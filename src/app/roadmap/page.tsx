@@ -58,7 +58,7 @@ export default function Roadmap() {
               <h3 className="text-sm uppercase tracking-wider text-gray-400">
                 {m.date}
               </h3>
-              <h2 className="text-xl font-semibold">{m.title}</h2>
+              <h2 className="text-xl font-semibold"><img src="/assets/piratehat.png" alt="" className="inline h-5 w-5 mr-2" />{m.title}</h2>
               <p className="text-gray-400">{m.body}</p>
             </div>
           </div>
