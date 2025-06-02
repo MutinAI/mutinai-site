@@ -9,7 +9,6 @@ export default function Product() {
     <section className="space-y-24">
       {/* hero */}
       <header className="flex flex-col-reverse md:flex-row items-center md:justify-between gap-10">
-        {/* left copy */}
         <div className="space-y-6 max-w-lg">
           <h1 className="text-4xl font-extrabold text-blue-900">
             Hands‑free DAO participation
@@ -20,14 +19,13 @@ export default function Product() {
             your votes.
           </p>
           <Link
-            href="/whitepaper"
+            href="/docs"
             className="inline-block rounded-xl bg-orange-500 px-6 py-3 font-semibold text-white shadow-md hover:bg-orange-400"
           >
-            Read the White Paper
+            Read the docs
           </Link>
         </div>
 
-        {/* mascot image */}
         <Image
           src="/assets/single.png"
           alt="MutinAI mascot"
@@ -64,26 +62,26 @@ export default function Product() {
       {/* rope divider */}
       <RopeDivider />
 
-      {/* feature grid with pirate icons */}
+      {/* feature grid with individual icons */}
       <section className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
         {[
           [
-            "/assets/icons.png#xywh=0,0,384,384",
+            "/assets/piratehat.png",
             "AI Summaries",
             "GPT‑4o distills every proposal into actionable bullets.",
           ],
           [
-            "/assets/icons.png#xywh=384,0,384,384",
+            "/assets/lock.png",
             "Private Signing",
             "Transactions built locally—your key never leaves device.",
           ],
           [
-            "/assets/icons.png#xywh=0,384,384,384",
+            "/assets/telescope.png",
             "Telescope Watchlist",
             "Track delegates you trust; mute the rest.",
           ],
           [
-            "/assets/icons.png#xywh=384,384,384,384",
+            "/assets/anchor.png",
             "Ledger‑grade Security",
             "Hardware‑wallet flow out of the box.",
           ],
