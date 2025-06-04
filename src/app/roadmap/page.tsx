@@ -66,7 +66,7 @@ export default function Roadmap() {
             <div className="absolute left-8 top-8 bottom-8 w-1 bg-gradient-to-b from-blue-500 via-orange-400 to-gray-300 rounded-full"></div>
             
             <div className="space-y-12">
-              {milestones.map((milestone, idx) => (
+              {milestones.map((milestone) => (
                 <div 
                   key={milestone.date} 
                   className={`relative flex gap-8 group ${

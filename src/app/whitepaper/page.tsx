@@ -53,7 +53,7 @@ export default function WhitePaper() {
                 <Image src="/assets/anchor.png" alt="" width={24} height={24} className="mr-3" />
                 <h3 className="text-lg font-semibold text-blue-900">1. Executive Summary</h3>
               </div>
-              <p className="text-gray-600">Overview of MutinAI's vision for AI-powered DAO governance</p>
+              <p className="text-gray-600">Overview of MutinAI&apos;s vision for AI-powered DAO governance</p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
               <div className="flex items-center mb-4">
