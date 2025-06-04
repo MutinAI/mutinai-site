@@ -186,12 +186,10 @@ export default function Roadmap() {
               Try the MVP
             </a>
             <a
-              href="https://github.com/MutinAI"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/contact"
               className="inline-block rounded-xl border-2 border-white px-8 py-4 font-semibold text-white hover:bg-white hover:text-blue-900 transition-all duration-200"
             >
-              View on GitHub
+              Get in Touch
             </a>
           </div>
         </div>

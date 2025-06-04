@@ -49,9 +49,8 @@ export default function RootLayout({
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 text-sm text-gray-600">
             <span>© {new Date().getFullYear()} MutinAI</span>
             <span className="hidden md:inline">|</span>
-            <a href="https://github.com/MutinAI" target="_blank" rel="noopener noreferrer" className="hover:text-blue-900 font-medium">GitHub</a>
             <a href="mailto:contact@mutinai.com" className="hover:text-blue-900 font-medium">Contact</a>
-            <a href="https://twitter.com/MutinAI" target="_blank" rel="noopener noreferrer" className="hover:text-blue-900 font-medium">Twitter</a>
+            <a href="https://twitter.com/MutinAIMCP" target="_blank" rel="noopener noreferrer" className="hover:text-blue-900 font-medium">Twitter</a>
           </div>
         </footer>
       </body>
