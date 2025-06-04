@@ -1,3 +1,4 @@
+/* Vercel deployment test - this ensures fresh build */
 import Image from "next/image";
 import Link from "next/link";
 
